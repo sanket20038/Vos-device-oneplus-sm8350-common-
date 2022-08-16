@@ -69,6 +69,9 @@ TARGET_USES_OPLUS_CAMERA := true
 # Camera
 TARGET_USES_OPLUS_CAMERA := true
 
+# Camera
+TARGET_USES_OPLUS_CAMERA := true
+
 # Properties
 TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
 TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
