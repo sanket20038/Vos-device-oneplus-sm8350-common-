@@ -36,31 +36,16 @@ PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
 
 # Audio
-PRODUCT_PACKAGES += \
-    android.hardware.audio@6.0-impl \
-    android.hardware.audio.effect@6.0-impl \
-    android.hardware.audio.service \
-    android.hardware.bluetooth.audio@2.1-impl \
-    android.hardware.soundtrigger@2.3-impl \
-    audio.bluetooth.default \
-    audio.primary.lahaina \
-    audio.r_submix.default \
-    audio.usb.default \
-    audioadsprpcd \
-    liba2dpoffload \
-    libbatterylistener \
-    libcomprcapture \
-    libexthwplugin \
-    libhdmiedid \
-    libhfp \
-    libqcompostprocbundle \
-    libqcomvisualizer \
-    libqcomvoiceprocessing \
-    libsndmonitor \
-    libspkrprot \
-    libssrec \
-    libstdc++_vendor \
-    libvolumelistener \
+PRODUCT_PACKAGES += \ android.hardware.audio@6.0-impl \ 
+    android.hardware.audio.effect@6.0-impl \ 
+    android.hardware.audio.service \ 
+    android.hardware.bluetooth.audio@2.1-impl \ 
+    android.hardware.soundtrigger@2.3-impl \ audio.bluetooth.default \ 
+    audio.primary.lahaina \ audio.r_submix.default \ audio.usb.default \ 
+    audioadsprpcd \ liba2dpoffload \ libbatterylistener \ libcomprcapture 
+    \ libexthwplugin \ libhdmiedid \ libhfp \ libqcompostprocbundle \ 
+    libqcomvisualizer \ libqcomvoiceprocessing \ libsndmonitor \ 
+    libspkrprot \ libssrec \ libstdc++_vendor \ libvolumelistener \ 
     sound_trigger.primary.lahaina:32
 
 PRODUCT_PACKAGES += \
@@ -347,6 +332,13 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResCommon \
     WifiResTarget
 
+# Oplus-fwk
+PRODUCT_PACKAGES += \
+    oplus-fwk
+
+PRODUCT_BOOT_JARS += \
+    oplus-fwk
+
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
@@ -510,7 +502,7 @@ PRODUCT_BOOT_JARS += \
     WfdCommon
 
 # Inherit from the OnePlus Camera makefile.
-$(call inherit-product, vendor/oneplus/camera/camera-vendor.mk)
+#$(call inherit-product, vendor/oneplus/camera/camera-vendor.mk)
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8350-common/sm8350-common-vendor.mk)
