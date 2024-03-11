@@ -127,6 +127,7 @@ vendor/lib64/libcdsprpc.so
 vendor/lib64/libmdsprpc.so
 vendor/lib64/libsdsprpc.so
 <<<<<<< HEAD
+<<<<<<< HEAD
 # Camera
 odm/etc/vintf/manifest/manifest_oplus_cameraextension.xml
 odm/lib/libDeVIS.so
@@ -1093,7 +1094,6 @@ vendor/etc/public.libraries.txt
 # Neural networks
 odm/lib64/libQnnHtpAltPrepStub.so
 odm/lib64/libQnnHtpStub.so
-<<<<<<< HEAD
 odm/lib64/libhta.so
 odm/lib64/hta_lib/libhta_hexagon_runtime.so
 vendor/bin/hw/android.hardware.neuralnetworks@1.3-service-qti
