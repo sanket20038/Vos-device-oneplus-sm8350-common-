@@ -8,15 +8,12 @@ ro.af.client_heap_size_kbyte=7168
 # GMS
 ro.opa.device_model_id=ga-oplus-skill-os121-211011
 
-<<<<<<< HEAD
 # USB debugging
 persist.sys.usb.config=mtp,adb
 ro.adb.secure=0
 ro.secure=0
 ro.debuggable=1
 ro.control_privapp_permissions=log
-=======
 # Google Lens
 ro.com.google.lens.oem_camera_package=com.oneplus.camera
 ro.com.google.lens.oem_image_package=com.oneplus.gallery
->>>>>>> 0e15f27 (sm8250-common: Add support for `OnePlus Camera & Gallery`)
