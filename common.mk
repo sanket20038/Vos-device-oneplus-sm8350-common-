@@ -347,13 +347,6 @@ PRODUCT_PACKAGES += \
     OPlusSystemUIResCommon \
     WifiResTarget
 
-# Oplus-fwk
-PRODUCT_PACKAGES += \
-    oplus-fwk
-
-PRODUCT_BOOT_JARS += \
-    oplus-fwk
-
 # Partitions
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
 
