@@ -36,16 +36,31 @@ PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
 
 # Audio
-PRODUCT_PACKAGES += \ android.hardware.audio@6.0-impl \ 
-    android.hardware.audio.effect@6.0-impl \ 
-    android.hardware.audio.service \ 
-    android.hardware.bluetooth.audio@2.1-impl \ 
-    android.hardware.soundtrigger@2.3-impl \ audio.bluetooth.default \ 
-    audio.primary.lahaina \ audio.r_submix.default \ audio.usb.default \ 
-    audioadsprpcd \ liba2dpoffload \ libbatterylistener \ libcomprcapture 
-    \ libexthwplugin \ libhdmiedid \ libhfp \ libqcompostprocbundle \ 
-    libqcomvisualizer \ libqcomvoiceprocessing \ libsndmonitor \ 
-    libspkrprot \ libssrec \ libstdc++_vendor \ libvolumelistener \ 
+PRODUCT_PACKAGES += \
+    android.hardware.audio@6.0-impl \
+    android.hardware.audio.effect@6.0-impl \
+    android.hardware.audio.service \
+    android.hardware.bluetooth.audio@2.1-impl \
+    android.hardware.soundtrigger@2.3-impl \
+    audio.bluetooth.default \
+    audio.primary.lahaina \
+    audio.r_submix.default \
+    audio.usb.default \
+    audioadsprpcd \
+    liba2dpoffload \
+    libbatterylistener \
+    libcomprcapture \
+    libexthwplugin \
+    libhdmiedid \
+    libhfp \
+    libqcompostprocbundle \
+    libqcomvisualizer \
+    libqcomvoiceprocessing \
+    libsndmonitor \
+    libspkrprot \
+    libssrec \
+    libstdc++_vendor \
+    libvolumelistener \
     sound_trigger.primary.lahaina:32
 
 PRODUCT_PACKAGES += \
@@ -96,9 +111,6 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.2-impl-qti \
     android.hardware.boot@1.2-impl-qti.recovery \
     android.hardware.boot@1.2-service
-
-# Camera
-$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
 
 PRODUCT_PACKAGES += \
     android.hardware.camera.provider@2.4-impl \
